@@ -45,12 +45,6 @@
 
 ### 🐧 Linux
 
-Make the script executable:
-
-```bash
-chmod +x mkcd.sh
-```
-
 Run it:
 
 ```bash
@@ -74,13 +68,13 @@ mkcd my-project
 ### Linux
 
 ```bash
-./mkcd.sh <directory-name>
+mkcd <directory-name>
 ```
 
 ### Windows
 
 ```cmd
-mkcd.bat <directory-name>
+mkcd <directory-name>
 ```
 
 ---
@@ -90,13 +84,13 @@ mkcd.bat <directory-name>
 ### Create a project folder
 
 ```bash
-./mkcd.sh awesome-app
+mkcd awesome-app
 ```
 
 or
 
 ```cmd
-mkcd.bat awesome-app
+mkcd awesome-app
 ```
 
 Creates:
@@ -110,13 +104,13 @@ awesome-app/
 ### Create nested folders
 
 ```bash
-./mkcd.sh projects/web/portfolio
+./mkcd projects/web/portfolio
 ```
 
 or
 
 ```cmd
-mkcd.bat projects\web\portfolio
+mkcd projects\web\portfolio
 ```
 
 Creates the full directory structure if it does not already exist.
@@ -139,13 +133,6 @@ The tool:
 
 The tool may report that the directory already exists depending on the platform and implementation.
 
-### Permission denied (Linux)
-
-Ensure the script is executable:
-
-```bash
-chmod +x mkcd.sh
-```
 
 ### Command not found
 
