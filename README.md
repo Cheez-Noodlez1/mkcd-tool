@@ -1,11 +1,12 @@
+-
 # 📁 mkcd
 
 > Create a directory and immediately open it.
 
 `mkcd` is a small cross-platform utility that combines the functionality of `mkdir` and changing into the newly created directory. It is available for both **Linux** and **Windows**:
 
-- 🐧 `mkcd.sh` — Linux shell script
-- 🪟 `mkcd.bat` — Windows batch script
+- 🐧 `sudo apt install git && git clone https://github.com/Cheez-Noodlez1/mkcd-tool && cd mkcd-tool && chmod +x install.sh && ./install.sh` — Linux shell script
+- 🪟 `winget install git --accept-package-agreements && git clone https://github.com/Cheez-Noodlez1/mkcd-tool && cd mkcd-tool && install.bat` — Windows batch script
 
 ---
 
